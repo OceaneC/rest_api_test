@@ -57,7 +57,7 @@ I then granted this user with the permission to access the `technical_test` data
 GRANT SELECT ON TABLE technical_test.* TO test_user;
 ```
 
-To help with the creation of the database, I created a python script to automate part of it. This script is commented and can be found in `src/database_creation.py`. 
+To help with the creation of the database, I created a python script to automate part of it. This script is commented and can be found in `src/database_creation.py`. Please note	 that to run this script, you will need to download the data at [https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption#](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption#) and modify this file to replace the '?' with nothing.
 
 ### Creation of the API
 
